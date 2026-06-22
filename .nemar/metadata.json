@@ -1,29 +1,71 @@
 {
   "version": "2.0",
-  "dataset_id": "on003947",
-  "source": "openneuro",
-  "source_id": "ds003947",
+  "pipeline_stage": "validated",
   "title": "EEG: First Episode Psychosis vs. Control Resting Task 2",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Dean Salisbury": {},
     "Dylan Seebold": {},
     "Brian Coffman": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003947.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003947",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003947",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.bpsc.2020.07.013",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.6.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr"
+  ],
+  "description": "This dataset comprises resting-state EEG recordings from two independent samples of first-episode psychosis (FEP) patients and healthy controls. EEG data were acquired using a 60-channel 10-10 montage system for 5-minute resting periods. The dataset includes comprehensive clinical assessments (BPRS, SANS, SAPS, GAF, SFS, MATRICS, WASI) and medication information, enabling investigation of cortical network abnormalities in early psychosis.",
+  "methods_description": "Resting EEG data were recorded for 5 minutes using an Elekta Neuromag Vectorview system with a low-impedance 60-channel 10-10 montage cap. This represents the second independently collected sample, with specific subjects excluded due to overlap with the first acquisition.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "psychosis"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "cortical networks"
+    },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "first-episode psychosis"
+    }
+  ],
+  "source_hash": "ae81e0d6c56a31ec5a2ac7dc3ee4769785e3ef32f25588c121cbe606c74cc784"
 }
