@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003947-blue)](https://doi.org/10.82901/nemar.on003947)
+
 Resting EEG and MEG data was gathered for two independently collected samples of healthy and First Episode Psychosis (FEP) individuals.
 To obtain resting data, EEG channels were recorded for 5 minutes using an Elekta Neuromag Vectorview system.
 EEG was recorded using a low-impedance 10-10 system 60-channel cap. 
