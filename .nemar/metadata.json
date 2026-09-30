@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: First Episode Psychosis vs. Control Resting Task 2",
-  "description": "This dataset comprises resting-state EEG recordings from two independently collected samples of healthy controls and first-episode psychosis (FEP) individuals. EEG data were acquired using a 60-channel low-impedance 10-10 system cap during 5-minute resting periods. The second sample excludes subjects overlapping with the first acquisition to avoid redundancy. Clinical assessments including psychiatric rating scales, cognitive batteries, and socioeconomic measures are provided in the phenotype directory.",
-  "methods_description": "Resting EEG data were recorded for 5 minutes using a 60-channel low-impedance 10-10 system electrode cap with an Elekta Neuromag system. Clinical assessments included BPRS, SANS, SAPS, GAF/GAS, SFS, MATRICS, WASI, Hollingshead Index, and medication chlorpromazine equivalency.",
+  "description": "Resting-state EEG recordings from healthy controls and individuals with first episode psychosis (FEP), representing the second of two independently collected samples. The dataset includes 5-minute resting recordings acquired with a 60-channel 10-10 cap alongside an Elekta Neuromag Vectorview system, and a phenotype directory with clinical, cognitive, and socioeconomic assessments. Subjects who shared a montage with the first acquisition (Task 1) are excluded here.",
+  "methods_description": "Resting EEG was recorded for 5 minutes using an Elekta Neuromag Vectorview system with a low-impedance 10-10 system 60-channel cap. Clinical assessments included BPRS, SANS, SAPS, GAF/GAS, SFS, MATRICS, WASI, Hollingshead index, and chlorpromazine-equivalent medication doses.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,28 +16,23 @@
       "term": "EEG"
     },
     {
-      "term": "first-episode psychosis"
+      "term": "resting state"
     },
     {
-      "term": "resting-state"
+      "term": "first episode psychosis"
     },
     {
       "term": "schizophrenia spectrum"
     },
     {
-      "term": "cortical networks"
+      "term": "Psychotic Disorders",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011618"
     },
     {
-      "term": "alpha oscillations"
-    },
-    {
-      "term": "healthy controls"
-    },
-    {
-      "term": "clinical assessment"
-    },
-    {
-      "term": "phenotypic data"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     }
   ],
   "related_identifiers": [
@@ -47,19 +42,20 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003947",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1016/j.bpsc.2020.07.013",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003947.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003947",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institute of Mental Health",
+      "award_number": "R01MH077945"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -67,7 +63,7 @@
     "eeg"
   ],
   "sizes": [
-    "13.5 GB (123 files)"
+    "12.54 GB (123 files)"
   ],
   "formats": [
     ".eeg",
@@ -76,12 +72,6 @@
     ".tsv",
     ".vhdr",
     ".yml"
-  ],
-  "funding_references": [
-    {
-      "funder_name": "National Institute of Mental Health",
-      "award_number": "R01MH077945"
-    }
   ],
   "source_hash": "ffb5a9b78a35dab301a5fcf7d958db136702f086f58dde90df079f7871aa9bcb"
 }
